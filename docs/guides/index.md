@@ -22,7 +22,7 @@ Future support for Hytale, integrating seamlessly into the Trinity ecosystem.
 If you are new to Trinity, we recommend following these guides in order:
 
 1. **[Getting Started](./getting-started/)**: Learn how to install and set up the launcher for the first time.
-2. **[Configuration](./configuration/)**: Customize your experience with global settings.
+2. **[Configuration](../docs/configuration/)**: Customize your experience with global settings.
 3. **[Troubleshooting](./troubleshooting/common-issues)**: Solve common issues if you encounter any problems.
 
 ## For Developers
