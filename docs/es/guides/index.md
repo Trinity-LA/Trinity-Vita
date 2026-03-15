@@ -12,9 +12,6 @@ La aplicación orientada al usuario que gestiona tu Juego, Instancias y Cuentas.
 - **Sandboxed:** Distribuido vía Flatpak para seguridad y estabilidad.
 - **Código Abierto:** Completamente transparente e impulsado por la comunidad.
 
-### 🎮 Hytale Launcher (Próximamente)
-Soporte futuro para Hytale, integrándose perfectamente en el ecosistema Trinity.
-- **Próximamente:** Actualmente en fase de planificación/desarrollo.
 
 
 ## ¿Por dónde empezar?

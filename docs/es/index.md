@@ -18,7 +18,7 @@ hero:
 
 features:
   - title: Proyectos
-    details: Explora el Lanzador Trinity y el Lanzador Hytale.
+    details: Explora el Lanzador Trinity.
     link: /es/dev/projects/
   - title: Guías y Tutoriales
     details: Guías paso a paso para comenzar y ayudarte a dominar el ecosistema.

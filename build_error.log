@@ -1,30 +1,76 @@
+En la rama main
+Tu rama está actualizada con 'origin/main'.
 
-> docs:build
-> vitepress build docs
+Cambios no rastreados para el commit:
+  (usa "git add/rm <archivo>..." para actualizar a lo que se le va a hacer commit)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificados:     build_error.log
+	modificados:     docs/.vitepress/config.mts
+	modificados:     docs/about/index.md
+	modificados:     docs/about/mission.md
+	modificados:     docs/dev/index.md
+	modificados:     docs/en/about/index.md
+	modificados:     docs/en/about/mission.md
+	borrados:        docs/en/dev/contributing/hytale-launcher/code-style.md
+	borrados:        docs/en/dev/contributing/hytale-launcher/commit-strategy.md
+	borrados:        docs/en/dev/contributing/hytale-launcher/how-to-contribute.md
+	borrados:        docs/en/dev/contributing/hytale-launcher/index.md
+	borrados:        docs/en/dev/contributing/hytale-launcher/issues.md
+	borrados:        docs/en/dev/contributing/hytale-launcher/pull-requests.md
+	modificados:     docs/en/dev/index.md
+	borrados:        docs/en/dev/projects/hytale-launcher/architecture.md
+	borrados:        docs/en/dev/projects/hytale-launcher/build-process.md
+	borrados:        docs/en/dev/projects/hytale-launcher/index.md
+	borrados:        docs/en/dev/projects/hytale-launcher/instance-management.md
+	borrados:        docs/en/dev/projects/trinity-sdk/api.md
+	borrados:        docs/en/dev/projects/trinity-sdk/index.md
+	borrados:        docs/en/dev/projects/trinity-sdk/overview.md
+	modificados:     docs/en/guides/index.md
+	modificados:     docs/en/index.md
+	borrados:        docs/en/launchers/hytale/configuration.md
+	borrados:        docs/en/launchers/hytale/index.md
+	borrados:        docs/en/launchers/hytale/installation.md
+	borrados:        docs/en/launchers/hytale/overview.md
+	borrados:        docs/en/launchers/hytale/troubleshooting.md
+	borrados:        docs/en/launchers/hytale/usage.md
+	modificados:     docs/en/launchers/index.md
+	modificados:     docs/es/about/index.md
+	modificados:     docs/es/about/mission.md
+	borrados:        docs/es/dev/contributing/hytale-launcher/code-style.md
+	borrados:        docs/es/dev/contributing/hytale-launcher/commit-strategy.md
+	borrados:        docs/es/dev/contributing/hytale-launcher/how-to-contribute.md
+	borrados:        docs/es/dev/contributing/hytale-launcher/index.md
+	borrados:        docs/es/dev/contributing/hytale-launcher/issues.md
+	borrados:        docs/es/dev/contributing/hytale-launcher/pull-requests.md
+	modificados:     docs/es/dev/index.md
+	borrados:        docs/es/dev/projects/hytale-launcher/architecture.md
+	borrados:        docs/es/dev/projects/hytale-launcher/build-process.md
+	borrados:        docs/es/dev/projects/hytale-launcher/index.md
+	borrados:        docs/es/dev/projects/hytale-launcher/instance-management.md
+	borrados:        docs/es/dev/projects/trinity-launcher/architecture.md
+	borrados:        docs/es/dev/projects/trinity-launcher/build-process.md
+	borrados:        docs/es/dev/projects/trinity-launcher/index.md
+	borrados:        docs/es/dev/projects/trinity-launcher/instance-management.md
+	borrados:        docs/es/dev/projects/trinity-sdk/api.md
+	borrados:        docs/es/dev/projects/trinity-sdk/index.md
+	borrados:        docs/es/dev/projects/trinity-sdk/overview.md
+	modificados:     docs/es/guides/index.md
+	modificados:     docs/es/index.md
+	borrados:        docs/es/launchers/hytale/configuration.md
+	borrados:        docs/es/launchers/hytale/index.md
+	borrados:        docs/es/launchers/hytale/installation.md
+	borrados:        docs/es/launchers/hytale/overview.md
+	borrados:        docs/es/launchers/hytale/troubleshooting.md
+	borrados:        docs/es/launchers/hytale/usage.md
+	modificados:     docs/es/launchers/index.md
+	modificados:     docs/guides/index.md
+	modificados:     docs/index.md
+	borrados:        docs/launchers/hytale/configuration.md
+	borrados:        docs/launchers/hytale/index.md
+	borrados:        docs/launchers/hytale/installation.md
+	borrados:        docs/launchers/hytale/overview.md
+	borrados:        docs/launchers/hytale/troubleshooting.md
+	borrados:        docs/launchers/hytale/usage.md
+	modificados:     docs/launchers/index.md
 
-
-  vitepress v1.6.4
-
-- building client + server bundles...
-
-
-(!) Found dead link ./../../issues in file dev/contributing/issues.md
-(!) Found dead link ./../../discussions in file dev/contributing/issues.md
-(!) Found dead link ./../../issues in file dev/contributing/issues.md
-(!) Found dead link ./../../discussions in file dev/contributing/index.md
-(!) Found dead link ./../../issues in file dev/contributing/index.md
-
-If this is expected, you can disable this check via config. Refer: https://vitepress.dev/reference/site-config#ignoredeadlinks
-
-x Build failed in 3.35s
-[31m✖[0m building client + server bundles...
-build error:
-[vitepress] 5 dead link(s) found.
-[vitepress] 5 dead link(s) found.
-    at Object.renderStart (file:///home/ezequiel/Github/vitapress-trinity/node_modules/vitepress/dist/node/chunk-D3CUZ4fa.js:45027:15)
-    at file:///home/ezequiel/Github/vitapress-trinity/node_modules/rollup/dist/es/shared/node-entry.js:22548:40
-    at async Promise.all (index 0)
-    at async PluginDriver.hookParallel (file:///home/ezequiel/Github/vitapress-trinity/node_modules/rollup/dist/es/shared/node-entry.js:22458:9)
-    at async Bundle.generate (file:///home/ezequiel/Github/vitapress-trinity/node_modules/rollup/dist/es/shared/node-entry.js:20603:13)
-    at async file:///home/ezequiel/Github/vitapress-trinity/node_modules/rollup/dist/es/shared/node-entry.js:23535:27
-    at async catchUnfinishedHookActions (file:///home/ezequiel/Github/vitapress-trinity/node_modules/rollup/dist/es/shared/node-entry.js:22902:16)
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")

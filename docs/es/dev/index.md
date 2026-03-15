@@ -7,7 +7,6 @@ Bienvenido al ecosistema de desarrollo de nuestros Lanzadores. Este espacio est�
 Actualmente, nuestro desarrollo se divide en dos pilares principales:
 
 * **Trinity Launcher:** Nuestro motor base y plataforma de gestión de instancias para Minecraft Bedrock.
-* **Hytale Launcher:** La implementación específica y personalizada para el ecosistema Hytale (Próximamente).
 
 ## Arquitectura y Filosofía
 

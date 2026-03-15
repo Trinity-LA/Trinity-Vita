@@ -19,4 +19,4 @@ By expanding the use of applications on Linux, we not only help the user but als
 
 ## Our Promise
 
-We work so that, in the near future, the question *"Does this work on my system?"* ceases to exist. We are dedicated to perfecting **Trinity** and **Hytale Launcher** as examples of technical excellence, where the power of Linux meets the simplicity that the modern user demands.
+We work so that, in the near future, the question *"Does this work on my system?"* ceases to exist. We are dedicated to perfecting **Trinity** as an example of technical excellence, where the power of Linux meets the simplicity that the modern user demands.

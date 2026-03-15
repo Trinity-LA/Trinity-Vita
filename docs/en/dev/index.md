@@ -7,7 +7,6 @@ Welcome to the development ecosystem of our Launchers. This space is designed to
 Currently, our development is divided into two main pillars:
 
 * **Trinity Launcher:** Our base engine and instance management platform for Minecraft Bedrock.
-* **Hytale Launcher:** The specific and custom implementation for the Hytale ecosystem (Coming Soon).
 
 ## Architecture and Philosophy
 

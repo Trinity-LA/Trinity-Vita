@@ -13,7 +13,6 @@ Desarrollamos lanzadores intuitivos y herramientas que simplifican tareas comple
 ### Proyectos Principales
 
 *   **Trinity Launcher:** Un lanzador pulido y moderno diseñado para gestionar tus aplicaciones y juegos con facilidad. Se enfoca en una experiencia de usuario fluida, manejando dependencias y configuraciones automáticamente para que tú no tengas que hacerlo.
-*   **Hytale Launcher:** Un lanzador especializado construido para la comunidad de Hytale (Próximamente), diseñado para proporcionar la mejor experiencia posible para los jugadores en Linux.
 
 ## ¿Por qué "Trinity"?
 

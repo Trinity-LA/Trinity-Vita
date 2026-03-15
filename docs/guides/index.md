@@ -12,9 +12,6 @@ The user-facing application that manages your Game, Instances, and Accounts.
 - **Sandboxed:** Distributed via Flatpak for security and stability.
 - **Open Source:** Completely transparent and community-driven.
 
-### 🎮 Hytale Launcher (Coming Soon)
-Future support for Hytale, integrating seamlessly into the Trinity ecosystem.
-- **Coming Soon:** Currently in planning/development phase.
 
 
 ## Where to Start?

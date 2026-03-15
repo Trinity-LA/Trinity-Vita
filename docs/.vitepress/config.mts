@@ -12,12 +12,25 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#7bc5e4' }],
+    ['meta', { name: 'author', content: 'Trinity Projects' }],
+    ['meta', { name: 'keywords', content: 'Trinity, Open Source, Development, Launcher, Minecraft, Community, Projects' }],
+    ['meta', { name: 'description', content: 'A open source eco-system providing tools and software like Trinity Launcher.' }],
+    
+    // Open Graph / Facebook
     ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:url', content: 'https://trinity.example.com/' }],
+    ['meta', { property: 'og:title', content: 'Trinity Projects' }],
+    ['meta', { property: 'og:description', content: 'A open source eco-system providing tools and software like Trinity Launcher.' }],
+    ['meta', { property: 'og:image', content: 'https://trinity.example.com/banner.webp' }],
     ['meta', { property: 'og:locale', content: 'en_US' }],
     ['meta', { property: 'og:site_name', content: 'Trinity Projects' }],
-    ['meta', { property: 'og:image', content: 'https://trinity.example.com/og-image.png' }],
+
+    // Twitter
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:image', content: 'https://trinity.example.com/og-image.png' }],
+    ['meta', { name: 'twitter:url', content: 'https://trinity.example.com/' }],
+    ['meta', { name: 'twitter:title', content: 'Trinity Projects' }],
+    ['meta', { name: 'twitter:description', content: 'A open source eco-system providing tools and software like Trinity Launcher.' }],
+    ['meta', { name: 'twitter:image', content: 'https://trinity.example.com/banner.webp' }]
   ],
 
   locales: {
@@ -67,18 +80,6 @@ export default defineConfig({
                       { text: 'Issues', link: '/dev/contributing/trinity-launcher/issues' },
                       { text: 'Pull Requests', link: '/dev/contributing/trinity-launcher/pull-requests' }
                     ]
-                  },
-                  {
-                    text: 'Hytale Launcher',
-                    collapsed: true,
-                    items: [
-                      { text: 'Guide', link: '/dev/contributing/hytale-launcher/' },
-                      { text: 'How to Contribute', link: '/dev/contributing/hytale-launcher/how-to-contribute' },
-                      { text: 'Code Style', link: '/dev/contributing/hytale-launcher/code-style' },
-                      { text: 'Commit Strategy', link: '/dev/contributing/hytale-launcher/commit-strategy' },
-                      { text: 'Issues', link: '/dev/contributing/hytale-launcher/issues' },
-                      { text: 'Pull Requests', link: '/dev/contributing/hytale-launcher/pull-requests' }
-                    ]
                   }]
               },
               {
@@ -94,16 +95,6 @@ export default defineConfig({
                       { text: 'Architecture', link: '/dev/projects/trinity-launcher/architecture' },
                       { text: 'Instances', link: '/dev/projects/trinity-launcher/instance-management' },
                       { text: 'Build', link: '/dev/projects/trinity-launcher/build-process' }
-                    ]
-                  },
-                  {
-                    text: 'Hytale Launcher',
-                    collapsed: true,
-                    items: [
-                      { text: 'Home', link: '/dev/projects/hytale-launcher/' },
-                      { text: 'Architecture', link: '/dev/projects/hytale-launcher/architecture' },
-                      { text: 'Instances', link: '/dev/projects/hytale-launcher/instance-management' },
-                      { text: 'Build', link: '/dev/projects/hytale-launcher/build-process' }
                     ]
                   }
                 ]
@@ -133,17 +124,6 @@ export default defineConfig({
                   { text: 'Configuration', link: '/launchers/minecraft/configuration' },
                   { text: 'Usage', link: '/launchers/minecraft/usage' },
                   { text: 'Troubleshooting', link: '/launchers/minecraft/troubleshooting' }
-                ]
-              },
-              {
-                text: 'Hytale',
-                collapsed: true,
-                items: [
-                  { text: 'Overview', link: '/launchers/hytale/overview' },
-                  { text: 'Installation', link: '/launchers/hytale/installation' },
-                  { text: 'Configuration', link: '/launchers/hytale/configuration' },
-                  { text: 'Usage', link: '/launchers/hytale/usage' },
-                  { text: 'Troubleshooting', link: '/launchers/hytale/troubleshooting' }
                 ]
               }
             ]
@@ -217,45 +197,13 @@ export default defineConfig({
                       { text: 'Reporte de Problemas', link: '/es/dev/contributing/trinity-launcher/issues' },
                       { text: 'Solicitudes de Extracción', link: '/es/dev/contributing/trinity-launcher/pull-requests' }
                     ]
-                  },
-                  {
-                    text: 'Lanzador Hytale',
-                    collapsed: true,
-                    items: [
-                      { text: 'Guía', link: '/es/dev/contributing/hytale-launcher/' },
-                      { text: 'Cómo Contribuir', link: '/es/dev/contributing/hytale-launcher/how-to-contribute' },
-                      { text: 'Estilo de Código', link: '/es/dev/contributing/hytale-launcher/code-style' },
-                      { text: 'Estrategia de Commits', link: '/es/dev/contributing/hytale-launcher/commit-strategy' },
-                      { text: 'Reporte de Problemas', link: '/es/dev/contributing/hytale-launcher/issues' },
-                      { text: 'Solicitudes de Extracción', link: '/es/dev/contributing/hytale-launcher/pull-requests' }
-                    ]
                   }]
               },
               {
                 text: 'Proyectos',
                 collapsed: true,
                 items: [
-                  { text: 'Resumen', link: '/es/dev/projects/' },
-                  {
-                    text: 'Lanzador Trinity',
-                    collapsed: true,
-                    items: [
-                      { text: 'Inicio', link: '/es/dev/projects/trinity-launcher/' },
-                      { text: 'Arquitectura', link: '/es/dev/projects/trinity-launcher/architecture' },
-                      { text: 'Instancias', link: '/es/dev/projects/trinity-launcher/instance-management' },
-                      { text: 'Construcción', link: '/es/dev/projects/trinity-launcher/build-process' }
-                    ]
-                  },
-                  {
-                    text: 'Lanzador Hytale',
-                    collapsed: true,
-                    items: [
-                      { text: 'Inicio', link: '/es/dev/projects/hytale-launcher/' },
-                      { text: 'Arquitectura', link: '/es/dev/projects/hytale-launcher/architecture' },
-                      { text: 'Instancias', link: '/es/dev/projects/hytale-launcher/instance-management' },
-                      { text: 'Construcción', link: '/es/dev/projects/hytale-launcher/build-process' }
-                    ]
-                  }
+                  { text: 'Resumen', link: '/es/dev/projects/' }
                 ]
               }
             ]
@@ -283,17 +231,6 @@ export default defineConfig({
                   { text: 'Configuración', link: '/es/launchers/minecraft/configuration' },
                   { text: 'Uso', link: '/es/launchers/minecraft/usage' },
                   { text: 'Solución de Problemas', link: '/es/launchers/minecraft/troubleshooting' }
-                ]
-              },
-              {
-                text: 'Hytale',
-                collapsed: true,
-                items: [
-                  { text: 'Resumen', link: '/es/launchers/hytale/overview' },
-                  { text: 'Instalación', link: '/es/launchers/hytale/installation' },
-                  { text: 'Configuración', link: '/es/launchers/hytale/configuration' },
-                  { text: 'Uso', link: '/es/launchers/hytale/usage' },
-                  { text: 'Solución de Problemas', link: '/es/launchers/hytale/troubleshooting' }
                 ]
               }
             ]

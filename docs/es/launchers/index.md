@@ -6,6 +6,5 @@ Nuestro objetivo es actuar como un puente entre proyectos complejos de código a
 
 ### Proyectos Clave que soportamos:
 * **Minecraft Bedrock:** Impulsado por los esfuerzos comunitarios de los proyectos `mcpelauncher` y `msa`.
-* **Hytale (Próximamente):** Preparando el terreno para la próxima generación de RPGs sandbox con rendimiento casi nativo.
 
 Al usar **tecnología Flatpak**, aseguramos que estos proyectos permanezcan aislados de tu sistema central, proporcionando un entorno seguro y estable para cada jugador.
