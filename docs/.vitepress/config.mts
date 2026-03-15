@@ -7,30 +7,30 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   sitemap: {
-    hostname: 'https://trinity.example.com'
+    hostname: 'https://docs-trinity.vercel.app'
   },
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['meta', { name: 'theme-color', content: '#7bc5e4' }],
+    ['meta', { name: 'theme-color', content: '#9D74F4' }],
     ['meta', { name: 'author', content: 'Trinity Projects' }],
     ['meta', { name: 'keywords', content: 'Trinity, Open Source, Development, Launcher, Minecraft, Community, Projects' }],
     ['meta', { name: 'description', content: 'A open source eco-system providing tools and software like Trinity Launcher.' }],
     
     // Open Graph / Facebook
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:url', content: 'https://trinity.example.com/' }],
+    ['meta', { property: 'og:url', content: 'https://docs-trinity.vercel.app/' }],
     ['meta', { property: 'og:title', content: 'Trinity Projects' }],
     ['meta', { property: 'og:description', content: 'A open source eco-system providing tools and software like Trinity Launcher.' }],
-    ['meta', { property: 'og:image', content: 'https://trinity.example.com/banner.webp' }],
+    ['meta', { property: 'og:image', content: 'https://docs-trinity.vercel.app/banner.webp' }],
     ['meta', { property: 'og:locale', content: 'en_US' }],
     ['meta', { property: 'og:site_name', content: 'Trinity Projects' }],
 
     // Twitter
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:url', content: 'https://trinity.example.com/' }],
+    ['meta', { name: 'twitter:url', content: 'https://docs-trinity.vercel.app/' }],
     ['meta', { name: 'twitter:title', content: 'Trinity Projects' }],
     ['meta', { name: 'twitter:description', content: 'A open source eco-system providing tools and software like Trinity Launcher.' }],
-    ['meta', { name: 'twitter:image', content: 'https://trinity.example.com/banner.webp' }]
+    ['meta', { name: 'twitter:image', content: 'https://docs-trinity.vercel.app/banner.webp' }]
   ],
 
   locales: {
