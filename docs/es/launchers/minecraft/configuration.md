@@ -1,57 +1,57 @@
-# Trinity Launcher Configuration
-Configure Trinity Launcher for an optimal Minecraft Bedrock experience
+# Configuración de Trinity Launcher
+Configura Trinity Launcher para una experiencia óptima en Minecraft Bedrock
 
-## 1. Initial Setup
-**Add your first Minecraft version**
+## 1. Configuración Inicial
+**Añade tu primera versión de Minecraft**
 
-To start using Trinity Launcher, you need to import at least one Minecraft Bedrock version in APK format.
+Para empezar a usar Trinity Launcher, necesitas importar al menos una versión de Minecraft Bedrock en formato APK.
 
-### APK Requirements
-* **Architecture:** `x86_64` (64-bit)
-* **Format:** `.apk` file
-* **Compatibility:** Any Bedrock version
+### Requisitos del APK
+* **Arquitectura:** `x86_64` (64 bits)
+* **Formato:** Archivo `.apk`
+* **Compatibilidad:** Cualquier versión de Bedrock
 
-::: danger Important
-**Trinity Launcher DOES NOT provide copies of Minecraft Bedrock.** You must obtain your own copy through legal means.
+::: danger Importante
+**Trinity Launcher NO proporciona copias de Minecraft Bedrock.** Debes obtener tu propia copia a través de medios legales.
 :::
 
-## 2. Version Management
-**Manage multiple instances**
+## 2. Gestión de Versiones
+**Gestiona múltiples instancias**
 
-Trinity Launcher allows you to manage multiple Minecraft Bedrock versions simultaneously.
+Trinity Launcher te permite gestionar múltiples versiones de Minecraft Bedrock simultáneamente.
 
-**Different Experiences**
-* Stable version for normal gameplay
-* Beta version for new features
-* Older versions for mod compatibility
+**Diferentes Experiencias**
+* Versión estable para juego normal
+* Versión beta para nuevas características
+* Versiones antiguas para compatibilidad con mods
 
-**Specific Configurations**
-* Profiles with different mod sets
-* Optimized performance settings
-* Separate worlds per version
+**Configuraciones Específicas**
+* Perfiles con diferentes conjuntos de mods
+* Ajustes de rendimiento optimizados
+* Mundos separados por versión
 
-::: tip 💡 Tip
-To add a new version, select **"Extract APK"** from the Trinity Launcher interface and select your downloaded file.
+::: tip 💡 Consejo
+Para añadir una nueva versión, selecciona **"Extract APK"** (Extraer APK) desde la interfaz de Trinity Launcher y selecciona tu archivo descargado.
 :::
 
-## 3. Customization and Content
-**Mods, packs and worlds**
+## 3. Personalización y Contenido
+**Mods, packs y mundos**
 
-Manage all your content directly from the launcher interface.
+Gestiona todo tu contenido directamente desde la interfaz del lanzador.
 
-**Texture Packs**
-* Supports `.mcpack`
-* Live preview
-* Easy management
+**Packs de Texturas**
+* Soporta `.mcpack`
+* Vista previa en directo
+* Gestión sencilla
 
-**Mods & Addons**
-* Supports `.mcaddon`
-* Dependency handling
-* One-click install
+**Mods y Addons**
+* Soporta `.mcaddon`
+* Manejo de dependencias
+* Instalación en un solo clic
 
-**Worlds**
-* Import `.mcworld`
-* Backup system
-* Easy sharing
+**Mundos**
+* Importar `.mcworld`
+* Sistema de copias de seguridad
+* Facilidad para compartir
 
 <CommunityCard />

@@ -133,6 +133,7 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: 'Introduction', link: '/about/' },
+              { text: 'Team', link: '/about/team' },
               { text: 'Mission', link: '/about/mission' },
               { text: 'Community Values', link: '/about/community-values' },
               { text: 'License', link: '/about/license' }
@@ -203,7 +204,17 @@ export default defineConfig({
                 text: 'Proyectos',
                 collapsed: true,
                 items: [
-                  { text: 'Resumen', link: '/es/dev/projects/' }
+                  { text: 'Resumen', link: '/es/dev/projects/' },
+                  {
+                    text: 'Lanzador Trinity',
+                    collapsed: true,
+                    items: [
+                      { text: 'Inicio', link: '/es/dev/projects/trinity-launcher/' },
+                      { text: 'Arquitectura', link: '/es/dev/projects/trinity-launcher/architecture' },
+                      { text: 'Instancias', link: '/es/dev/projects/trinity-launcher/instance-management' },
+                      { text: 'Compilación', link: '/es/dev/projects/trinity-launcher/build-process' }
+                    ]
+                  }
                 ]
               }
             ]
@@ -240,6 +251,7 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: 'Introducción', link: '/es/about/' },
+              { text: 'Equipo', link: '/es/about/team' },
               { text: 'Misión', link: '/es/about/mission' },
               { text: 'Valores de la Comunidad', link: '/es/about/community-values' },
               { text: 'Licencia', link: '/es/about/license' }
@@ -252,8 +264,8 @@ export default defineConfig({
         },
         socialLinks: [
           { icon: 'github', link: 'https://github.com/Trinity-LA/Trinity-Launcher' },
-          { icon: 'discord', link: 'https://discord.gg/ettXssJs4b' },
-          { icon: { svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M21.68 3.56c-.28-.2-.68-.24-1.02-.08L3.26 10.4c-.7.3-1.14.98-1.14 1.74s.44 1.44 1.14 1.74l4.46 1.9 1.58 5.16a1.98 1.98 0 0 0 1.88 1.4c.54 0 1.06-.22 1.44-.6l2.12-2.12 4.46 3.06c.38.26.84.34 1.3.22s.84-.44 1.02-.88l4-16a2 2 0 0 0-.84-2.46zM13 14 8.7 11.8l9.6-6-8.2 8.6v.02L13 14z"/></svg>' }, link: 'https://t.me/CyberCoffeFossOrg' },
+          { icon: 'discord', link: 'https://discord.gg/GWaN4eNjvz' },
+          { icon: { svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M21.68 3.56c-.28-.2-.68-.24-1.02-.08L3.26 10.4c-.7.3-1.14.98-1.14 1.74s.44 1.44 1.14 1.74l4.46 1.9 1.58 5.16a1.98 1.98 0 0 0 1.88 1.4c.54 0 1.06-.22 1.44-.6l2.12-2.12 4.46 3.06c.38.26.84.34 1.3.22s.84-.44 1.02-.88l4-16a2 2 0 0 0-.84-2.46zM13 14 8.7 11.8l9.6-6-8.2 8.6v.02L13 14z"/></svg>' }, link: 'https://t.me/+A7Y7lNK3PlpkNzFh' },
           { icon: { svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.005 7.796c0 1.88-1.023 3.009-3.207 3.009h-3.615v-5.95H13.8c2.183 0 3.206 1.162 3.206 2.94zM.853 0l3.5 4.866v19.133h5.832v-9.06h1.398L16.563 24h6.583l-5.525-9.504a6.966 6.966 0 0 0 3.879-2.532 7 7 0 0 0 1.44-4.408C22.94 3.384 20.009 0 14.143 0h-9.79z"/></svg>' }, link: 'https://stt.gg/afpvgABs' }
         ]
       }
@@ -266,8 +278,8 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Trinity-LA/Trinity-Launcher' },
-      { icon: 'discord', link: 'https://discord.gg/ettXssJs4b' },
-      { icon: { svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M21.68 3.56c-.28-.2-.68-.24-1.02-.08L3.26 10.4c-.7.3-1.14.98-1.14 1.74s.44 1.44 1.14 1.74l4.46 1.9 1.58 5.16a1.98 1.98 0 0 0 1.88 1.4c.54 0 1.06-.22 1.44-.6l2.12-2.12 4.46 3.06c.38.26.84.34 1.3.22s.84-.44 1.02-.88l4-16a2 2 0 0 0-.84-2.46zM13 14 8.7 11.8l9.6-6-8.2 8.6v.02L13 14z"/></svg>' }, link: 'https://t.me/CyberCoffeFossOrg' },
+      { icon: 'discord', link: 'https://discord.gg/GWaN4eNjvz' },
+      { icon: { svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M21.68 3.56c-.28-.2-.68-.24-1.02-.08L3.26 10.4c-.7.3-1.14.98-1.14 1.74s.44 1.44 1.14 1.74l4.46 1.9 1.58 5.16a1.98 1.98 0 0 0 1.88 1.4c.54 0 1.06-.22 1.44-.6l2.12-2.12 4.46 3.06c.38.26.84.34 1.3.22s.84-.44 1.02-.88l4-16a2 2 0 0 0-.84-2.46zM13 14 8.7 11.8l9.6-6-8.2 8.6v.02L13 14z"/></svg>' }, link: 'https://t.me/+A7Y7lNK3PlpkNzFh' },
       { icon: { svg: '<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.005 7.796c0 1.88-1.023 3.009-3.207 3.009h-3.615v-5.95H13.8c2.183 0 3.206 1.162 3.206 2.94zM.853 0l3.5 4.866v19.133h5.832v-9.06h1.398L16.563 24h6.583l-5.525-9.504a6.966 6.966 0 0 0 3.879-2.532 7 7 0 0 0 1.44-4.408C22.94 3.384 20.009 0 14.143 0h-9.79z"/></svg>' }, link: 'https://stt.gg/afpvgABs' }
     ],
 

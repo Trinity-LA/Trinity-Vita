@@ -1,0 +1,116 @@
+[
+  {
+    "avatar": "https://github.com/Crow.png",
+    "name": "Crow",
+    "title": "Creador del Proyecto",
+    "desc": "Fundador y visionario detrás de Trinity Launcher. Lidera el desarrollo conceptual y define la dirección estratégica del proyecto.",
+    "links": [
+      { "icon": "github", "link": "https://github.com/Crow" }
+    ]
+  },
+  {
+    "avatar": "https://github.com/JavierC.png",
+    "name": "JavierC",
+    "title": "Co-Creador y Desarrollador",
+    "desc": "Co-creador que participa activamente en el desarrollo del launcher mientras supervisa el proyecto. Asegura la calidad y la coordinación del equipo.",
+    "links": [
+      { "icon": "github", "link": "https://github.com/JavierC" }
+    ]
+  },
+  {
+    "avatar": "https://github.com/Orta.png",
+    "name": "Orta",
+    "title": "Supervisor del Proyecto",
+    "desc": "Co-supervisor del proyecto con experiencia en arquitectura de software y liderazgo técnico. Supervisa la implementación de funcionalidades clave.",
+    "links": [
+      { "icon": "github", "link": "https://github.com/Orta" }
+    ]
+  },
+  {
+    "avatar": "https://github.com/MrTanuk.png",
+    "name": "MrTanuk",
+    "title": "Desarrollador Principal",
+    "desc": "Contribuyó al desarrollo principal junto a JavierC y desempeñó un papel clave en la resolución de problemas técnicos.",
+    "links": [
+      { "icon": "github", "link": "https://github.com/MrTanuk" }
+    ]
+  },
+  {
+    "avatar": "https://github.com/ezequielgk.png",
+    "name": "Ezequiel",
+    "title": "Diseño Web",
+    "desc": "Diseñador y desarrollador frontend especializado en interfaces modernas. Responsable del diseño visual y la experiencia de usuario de Trinity Launcher.",
+    "links": [
+      { "icon": "github", "link": "https://github.com/ezequielgk" }
+    ]
+  },
+  {
+    "avatar": "https://github.com/KevinRunforrestt.png",
+    "name": "KevinRunforrestt",
+    "title": "Documentación y Soporte",
+    "desc": "Gestionó la traducción de archivos de documentación markdown y brindó asistencia al equipo de desarrollo.",
+    "links": [
+      { "icon": "github", "link": "https://github.com/KevinRunforrestt" }
+    ]
+  },
+  {
+    "avatar": "https://github.com/HylianSoul.png",
+    "name": "HylianSoul",
+    "title": "Traductor",
+    "desc": "Contribuyó a la traducción al catalán del launcher y brindó valiosa asistencia a la comunidad.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/HylianSoul"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/BrokenByteOfCode.png",
+    "name": "BrokenByteOfCode",
+    "title": "Traductor",
+    "desc": "Proporcionó la traducción al ucraniano para Trinity Launcher, ayudando a expandir nuestro alcance a más usuarios.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/BrokenByteOfCode"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/bgusenda.png",
+    "name": "bgusenda",
+    "title": "Traductor",
+    "desc": "Proporcionó la traducción al portugués para Trinity Launcher, ayudando a expandir nuestro alcance a más usuarios.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/bgusenda"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/p3p3p3k4z.png",
+    "name": "p3p3p3k4z",
+    "title": "Colaborador de Script de Compilación",
+    "desc": "Mejoró el script de compilación del proyecto.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/p3p3p3k4z"
+      }
+    ]
+  },
+  {
+    "avatar": "https://github.com/IoselDev.png",
+    "name": "IoselDev",
+    "title": "Mantenedor de Paquete",
+    "desc": "Contribuyó exclusivamente a la creación del PKGBUILD para el paquete AUR.",
+    "links": [
+      {
+        "icon": "github",
+        "link": "https://github.com/IoselDev"
+      }
+    ]
+  }
+]

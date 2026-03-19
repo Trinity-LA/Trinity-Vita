@@ -116,3 +116,108 @@
         max-height: 320px;
     }
 }
+
+/* -------------------------------------------------------------------------- */
+/* Team Page Customization (VPTeamMembers) Mobile-First                       */
+/* -------------------------------------------------------------------------- */
+
+/* Base profile card (Mobile First) */
+.VPTeamMembersItem {
+    background: rgba(26, 29, 36, 0.4) !important; /* Lighter glass */
+    border: 1px solid rgba(157, 116, 244, 0.1) !important;
+    border-radius: 16px !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease !important;
+    position: relative;
+    /* Removed overflow: hidden so shadows and native elements don't clip */
+}
+
+/* Subtle glow border effect for the card */
+.VPTeamMembersItem:hover {
+    border-color: rgba(157, 116, 244, 0.4) !important;
+    background: rgba(30, 33, 42, 0.8) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2),
+                0 0 15px rgba(157, 116, 244, 0.1) !important;
+    transform: translateY(-2px) !important; /* Very subtle lift for mobile */
+}
+
+/* Profile Avatar */
+.VPTeamMembersItem .avatar {
+    border: 2px solid rgba(157, 116, 244, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease !important;
+    background-color: var(--vp-c-bg-elv);
+}
+
+.VPTeamMembersItem:hover .avatar {
+    border-color: var(--vp-c-brand-1);
+    box-shadow: 0 0 15px rgba(157, 116, 244, 0.4);
+    transform: scale(1.05) !important; /* Gentle scale */
+}
+
+/* Name and Text */
+.VPTeamMembersItem .name {
+    color: var(--vp-c-text-1) !important;
+    font-weight: 700 !important;
+    transition: color 0.3s ease;
+}
+
+.VPTeamMembersItem:hover .name {
+    color: var(--vp-c-brand-1) !important;
+}
+
+/* Affiliation / Role Tag */
+.VPTeamMembersItem .affiliation {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 2px 10px;
+    color: var(--vp-c-text-2) !important;
+    font-size: 0.85rem !important;
+    margin-top: 6px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.VPTeamMembersItem:hover .affiliation {
+    background: rgba(157, 116, 244, 0.15);
+    border-color: rgba(157, 116, 244, 0.3);
+    color: var(--vp-c-brand-3) !important;
+}
+
+/* Description Text */
+.VPTeamMembersItem .desc {
+    color: var(--vp-c-text-2) !important;
+    font-size: 0.9rem !important;
+    line-height: 1.5 !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Mobile Margins / Spacing Enhancements                                      */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 767px) {
+    .VPTeamMembers {
+        padding: 0 1.25rem !important; /* Adds clear space from screen edges on mobile */
+    }
+    .VPTeamMembersItem {
+        margin-bottom: 20px !important; /* Space between cards */
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+/* Desktop / Tablet Enhancements                                              */
+/* -------------------------------------------------------------------------- */
+
+@media (min-width: 768px) {
+    .VPTeamMembersItem {
+        /* Enhance glassmorphism only on larger screens for performance */
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+    }
+
+    .VPTeamMembersItem:hover {
+        transform: translateY(-5px) !important; /* Larger lift on desktop */
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3),
+                    0 0 20px rgba(157, 116, 244, 0.2) !important;
+    }
+}

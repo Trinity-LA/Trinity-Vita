@@ -1,28 +1,28 @@
-# Reporting Issues & Enhancements
+# Reporte de Errores y Mejoras
 
-We have some important considerations to keep the project in order.
+Tenemos algunas consideraciones importantes para mantener el proyecto en orden.
 
-## Found a Bug?
+## ¿Encontraste un Error?
 
-**First:** Verify that the software works (even if it has the bug).
+**Primero:** Verifica que el software funcione (incluso si tiene el error).
 
 > [!IMPORTANT]
-> **Rule:** If the software works, **DO NOT FIX THE BUG**, just report it.
+> **Regla:** Si el software funciona, **NO SOLUCIONES EL ERROR**, solo repórtalo.
 
-### Reporting Steps
+### Pasos para Reportar
 
-1. Open an [Issue](https://github.com/Trinity-LA/Trinity-Launcher/issues) with:
-   - **Descriptive Title:** e.g., "Bug: trinchete fails to detect Flatpak versions"
-   - **Expected Behavior:** Clear description of what should happen
-   - **Actual Behavior:** What actually happens
-   - **Steps to Reproduce:** Step-by-step guide to trigger the bug
-   - **System:** Distro, Qt version, environment (local/Flatpak)
+1. Abre un [Issue](https://github.com/Trinity-LA/Trinity-Launcher/issues) con:
+   - **Título Descriptivo:** ej., "Bug: trinchete falla al detectar versiones Flatpak"
+   - **Comportamiento Esperado:** Descripción clara de lo que debería suceder
+   - **Comportamiento Actual:** Lo que realmente sucede
+   - **Pasos para Reproducir:** Guía paso a paso para provocar el error
+   - **Sistema:** Distribución, versión de Qt, entorno (local/Flatpak)
 
-2. **Label:** Mark as `bug` (if available)
+2. **Etiqueta:** Marca como `bug` (si está disponible)
 
-3. **Wait for Organization:** The maintainers will decide when and how to fix it
+3. **Espera a la Organización:** Los mantenedores decidirán cuándo y cómo solucionarlo
 
-### Example of a Good Issue
+### Ejemplo de un Buen Issue
 
 ```text
 Title: Bug: trinito does not copy mod folders in Flatpak
@@ -41,18 +41,18 @@ Steps:
 System: Ubuntu 22.04, Qt 6.x, Flatpak
 ```
 
-## Have an Improvement Idea?
+## ¿Tienes una Idea de Mejora?
 
 > [!IMPORTANT]
-> **Rule:** Document the idea, **DO NOT touch the code** until the project is organized.
+> **Regla:** Documenta la idea, **NO toques el código** hasta que el proyecto esté organizado.
 
-### Proposal Steps
+### Pasos para Propuestas
 
-1. Open a [Discussion](https://github.com/Trinity-LA/Trinity-Launcher/discussions) or [Issue](https://github.com/Trinity-LA/Trinity-Launcher/issues) with the `enhancement` label
+1. Abre una [Discusión](https://github.com/Trinity-LA/Trinity-Launcher/discussions) o [Issue](https://github.com/Trinity-LA/Trinity-Launcher/issues) con la etiqueta `enhancement`
 2. Describe:
-   - What improvement you propose
-   - Why it would be useful
-   - Expected impact
-3. **Wait for Feedback** from maintainers before making changes
+   - Qué mejora propones
+   - Por qué sería útil
+   - Impacto esperado
+3. **Espera Comentarios** de los mantenedores antes de hacer cambios
 
-**Current Priority:** Organize Project > Optimize Code
+**Prioridad Actual:** Organizar Proyecto > Optimizar Código

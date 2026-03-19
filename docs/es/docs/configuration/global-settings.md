@@ -1,1 +1,1 @@
-# Global settings
+# Ajustes globales

@@ -55,8 +55,8 @@ sudo make install
 You need to install the KDE runtime and Qt WebEngine base app.
 
 ```bash
-flatpak install flathub io.qt.qtwebengine.BaseApp//6.9
-flatpak install flathub org.kde.Platform//6.9 org.kde.Sdk//6.9
+flatpak install flathub io.qt.qtwebengine.BaseApp//6.10
+flatpak install flathub org.kde.Platform//6.10 org.kde.Sdk//6.10
 ```
 
 ### Build Commands

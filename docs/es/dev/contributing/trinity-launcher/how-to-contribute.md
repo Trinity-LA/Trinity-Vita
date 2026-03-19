@@ -1,60 +1,60 @@
-# How to Contribute
+# Cómo Contribuir
 
-## Contribution Workflow
+## Flujo de Trabajo de Contribución
 
-### 1. Prepare Your Environment
+### 1. Prepara tu Entorno
 
 ```bash
-# Clone the repo
+# Clonar el repositorio
 git clone https://github.com/Trinity-LA/Trinity-Launcher.git
 cd Trinity_Launcher
 
-# Create a branch
-git checkout -b feature/your-change
-# or
-git checkout -b fix/your-bug
+# Crear una rama
+git checkout -b feature/tu-cambio
+# o
+git checkout -b fix/tu-error
 ```
 
-### 2. Make Changes
+### 2. Realiza Cambios
 
-- Follow the [Code Style](./code-style.md)
-- Write [Clear Commits](./commit-strategy.md)
-- If using AI, respect the rules defined below.
+- Sigue el [Estilo de Código](./code-style.md)
+- Escribe [Commits Claros](./commit-strategy.md)
+- Si usas IA, respeta las reglas definidas a continuación.
 
-### 3. Build and Test Locally
+### 3. Compila y Prueba Localmente
 
 ```bash
-# Compile trinchete
+# Compilar trinchete
 qmake -project -o trinchete.pro
 echo "QT += widgets" >> trinchete.pro
 qmake trinchete.pro
 make
 
-# Compile trinito
+# Compilar trinito
 qmake -project -o trinito.pro
 echo "QT += widgets" >> trinito.pro
 qmake trinito.pro
 make
 
-# Run
+# Ejecutar
 ./trinchete
 ./trinito
 ```
 
-## AI Usage Policy
+## Política de Uso de IA
 
 > [!WARNING]
-> **Important Rule:** Prevent AI from modifying code unnecessarily.
+> **Regla Importante:** Evita que la IA modifique el código innecesariamente.
 
-**Allowed:**
-- ✅ Using AI to understand code
-- ✅ Using AI to write documentation
-- ✅ Using AI to design tests
-- ✅ Using AI to propose solutions in issues
+**Permitido:**
+- ✅ Usar IA para entender el código
+- ✅ Usar IA para escribir documentación
+- ✅ Usar IA para diseñar pruebas
+- ✅ Usar IA para proponer soluciones en issues
 
-**NOT Allowed:**
-- ❌ AI optimizing code on its own
-- ❌ AI refactoring without prior documentation
-- ❌ AI making changes to "improve" code
+**NO Permitido:**
+- ❌ IA optimizando código por su cuenta
+- ❌ IA refactorizando sin documentación previa
+- ❌ IA haciendo cambios para "mejorar" el código
 
-**Reason:** Undocumented changes can break things we haven't documented yet. Stability is more important than optimization right now.
+**Razón:** Los cambios no documentados pueden romper cosas que aún no hemos documentado. La estabilidad es más importante que la optimización en este momento.

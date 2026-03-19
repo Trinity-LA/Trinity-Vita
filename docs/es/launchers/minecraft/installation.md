@@ -1,92 +1,92 @@
-# Trinity Launcher Installation
-**Complete guide for Linux systems**
+# Instalación de Trinity Launcher
+**Guía completa para sistemas Linux**
 
-Trinity Launcher is a community-driven project distributed primarily as a **Flatpak** package to ensure maximum compatibility and security across the Linux ecosystem.
+Trinity Launcher es un proyecto impulsado por la comunidad, distribuido principalmente como un paquete **Flatpak** para garantizar la máxima compatibilidad y seguridad en el ecosistema Linux.
 
-::: tip Before you start
-Make sure you have **Flatpak** installed on your system. This ensures that the launcher and its dependencies (like the community-maintained Minecraft Bedrock engines) run in a stable, isolated environment.
+::: tip Antes de empezar
+Asegúrate de tener **Flatpak** instalado en tu sistema. Esto garantiza que el lanzador y sus dependencias (como los motores de Minecraft Bedrock mantenidos por la comunidad) se ejecuten en un entorno estable y aislado.
 
-If you don't have it yet, visit the official setup guide: [Go to Flatpak.org](https://flatpak.org/setup/)
+Si aún no lo tienes, visita la guía de configuración oficial: [Ir a Flatpak.org](https://flatpak.org/setup/)
 :::
 
-## Install Trinity Launcher
-Choose the method that best fits your workflow.
+## Instalar Trinity Launcher
+Elige el método que mejor se adapte a tu flujo de trabajo.
 
-### Method A: From Testing-Beta Repository (RECOMMENDED)
-This is the preferred way for community members who want the latest features and automatic updates directly from our development pipeline.
+### Método A: Desde el repositorio Testing-Beta (RECOMENDADO)
+Esta es la forma preferida para los miembros de la comunidad que desean las funciones más recientes y actualizaciones automáticas directamente desde nuestro ciclo de desarrollo.
 
-**Run these commands in order in your terminal:**
+**Ejecuta estos comandos en orden en tu terminal:**
 
-1. **Add the Trinity repository:**
+1. **Añade el repositorio de Trinity:**
     ```bash
-    flatpak remote-add --if-not-exists trinity https://trinity-flatpak.codeberg.page/com.trench.trinity.launcher.flatpakrepo
+    flatpak remote-add --if-not-exists trinity https://huggingface.co/datasets/ccoff...
     ```
 
-2. **Install the KDE runtime (Qt6):**
+2. **Instala el runtime de KDE (Qt6):**
     ```bash
-    flatpak install flathub org.kde.Platform//6.9
+    flatpak install flathub org.kde.Platform//6.10
     ```
 
-3. **Install the Qt WebEngine base:**
+3. **Instala la base de Qt WebEngine:**
     ```bash
-    flatpak install flathub io.qt.qtwebengine.BaseApp//6.9
+    flatpak install flathub io.qt.qtwebengine.BaseApp//6.10
     ```
 
-4. **Install Trinity Launcher:**
+4. **Instala Trinity Launcher:**
     ```bash
     flatpak install com.trench.trinity.launcher
     ```
 
-> **Advantages:** Direct access to latest beta versions and automatic background updates.
+> **Ventajas:** Acceso directo a las últimas versiones beta y actualizaciones automáticas en segundo plano.
 
-### Method B: From Software Store
+### Método B: Desde la tienda de software
 
-If you prefer a graphical interface:
+Si prefieres una interfaz gráfica:
 
-1. Add the repository first:
+1. Añade primero el repositorio:
     ```bash
-    flatpak remote-add --if-not-exists trinity https://trinity-flatpak.codeberg.page/com.trench.trinity.launcher.flatpakrepo
+    flatpak remote-add --if-not-exists trinity https://huggingface.co/datasets/ccoff...
     ```
 
-2. Search for **"Trinity Launcher"** in your Software Store (GNOME Software, Discover).
-    > *Note: You may need to restart the store after adding the repo.*
+2. Busca **"Trinity Launcher"** en tu tienda de software (GNOME Software, Discover).
+    > *Nota: Puede que necesites reiniciar la tienda después de añadir el repositorio.*
 
-### Method C: AppImage (Beta - Portable)
+### Método C: AppImage (Beta - Portable)
 
-Ideal for users who prefer manual management without package managers.
+Ideal para usuarios que prefieren la gestión manual sin gestores de paquetes.
 
-1. **Download:**  
+1. **Descargar:**  
    <MinecraftButton link="https://github.com/Trinity-Vita/Trinity-Launcher/releases/latest" />
 
-2. **Install Gear Level:** Search for "Gear Level" in your App Store and install it.
-3. **Open with Gear Level:** Right-click the `.AppImage` file -> Open With -> **Gear Level**.
-4. **Unlock & Integrate:** Click **"Unlock"** to make it executable and **"Add to apps menu"** for easy access.
+2. **Instalar Gear Level:** Busca "Gear Level" en tu tienda de aplicaciones e instálalo.
+3. **Abrir con Gear Level:** Haz clic derecho en el archivo `.AppImage` -> Abrir con -> **Gear Level**.
+4. **Desbloquear e Integrar:** Haz clic en **"Unlock"** (Desbloquear) para hacerlo ejecutable y **"Add to apps menu"** (Añadir al menú de aplicaciones) para facilitar el acceso.
 
 ---
 
-## Remote Login (AppImage Only)
+## Inicio de sesión remoto (Solo AppImage)
 
-::: warning Local vs Remote
-This step is **only required** for the **AppImage** version to enable Microsoft account authentication.
+::: warning Local vs Remoto
+Este paso es **solo necesario** para la versión **AppImage** para habilitar la autenticación con la cuenta de Microsoft.
 :::
 
-### Step 1: Enable in Settings
-1. Open Trinity and go to **Settings**.
-2. Navigate to **Account Settings** and toggle **Remote Login**.
-3. **Restart** the game completely.
+### Paso 1: Habilitar en Configuración
+1. Abre Trinity y ve a **Settings** (Configuración).
+2. Navega a **Account Settings** (Configuración de cuenta) y activa **Remote Login** (Inicio de sesión remoto).
+3. **Reinicia** el juego por completo.
 
-### Step 2: Browser Authentication
-1. Go to [microsoft.com/link](https://microsoft.com/link).
-2. Enter the **code** shown in the game.
-3. Complete the login in your browser.
-4. Close the dialog in the game.
+### Paso 2: Autenticación en el navegador
+1. Ve a [microsoft.com/link](https://microsoft.com/link).
+2. Ingresa el **código** que se muestra en el juego.
+3. Completa el inicio de sesión en tu navegador.
+4. Cierra el diálogo en el juego.
 
 ---
 
-## Run Trinity Launcher (Flatpak)
+## Ejecutar Trinity Launcher (Flatpak)
 
-- **From Menu:** Search for "Trinity Launcher" in your applications dashboard.
-- **From Terminal:**
+- **Desde el menú:** Busca "Trinity Launcher" en tu panel de aplicaciones.
+- **Desde la terminal:**
     ```bash
     flatpak run com.trench.trinity.launcher
     ```

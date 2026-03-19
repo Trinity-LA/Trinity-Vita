@@ -19,17 +19,17 @@ This is the preferred way for community members who want the latest features and
 
 1. **Add the Trinity repository:**
     ```bash
-    flatpak remote-add --if-not-exists trinity https://trinity-flatpak.codeberg.page/com.trench.trinity.launcher.flatpakrepo
+    flatpak remote-add --if-not-exists trinity https://huggingface.co/datasets/ccoff...
     ```
 
 2. **Install the KDE runtime (Qt6):**
     ```bash
-    flatpak install flathub org.kde.Platform//6.9
+    flatpak install flathub org.kde.Platform//6.10
     ```
 
 3. **Install the Qt WebEngine base:**
     ```bash
-    flatpak install flathub io.qt.qtwebengine.BaseApp//6.9
+    flatpak install flathub io.qt.qtwebengine.BaseApp//6.10
     ```
 
 4. **Install Trinity Launcher:**
@@ -45,7 +45,7 @@ If you prefer a graphical interface:
 
 1. Add the repository first:
     ```bash
-    flatpak remote-add --if-not-exists trinity https://trinity-flatpak.codeberg.page/com.trench.trinity.launcher.flatpakrepo
+    flatpak remote-add --if-not-exists trinity https://huggingface.co/datasets/ccoff...
     ```
 
 2. Search for **"Trinity Launcher"** in your Software Store (GNOME Software, Discover).

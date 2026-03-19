@@ -1,19 +1,19 @@
-# Code Standards
+# Estándares de Código
 
-## Identifier Naming
+## Nomenclatura de Identificadores
 
-| Element | Style | Example |
+| Elemento | Estilo | Ejemplo |
 |:--------|:------|:--------|
-| **Functions/Methods** | `camelCase` | `loadInstalledVersions()`, `launchGame()` |
+| **Funciones/Métodos** | `camelCase` | `loadInstalledVersions()`, `launchGame()` |
 | **Variables** | `camelCase` | `selectedVersion`, `libPath` |
-| **Constants** | `UPPER_SNAKE_CASE` | `MAX_RETRIES`, `DEFAULT_TIMEOUT` |
-| **Classes** | `PascalCase` | `LauncherWindow`, `VersionManager` |
-| **Folders** | `lowercase` | `src/`, `ui/`, `core/` |
-| **Files** | `snake_case` | `launcher_window.cpp`, `version_manager.h` |
+| **Constantes** | `UPPER_SNAKE_CASE` | `MAX_RETRIES`, `DEFAULT_TIMEOUT` |
+| **Clases** | `PascalCase` | `LauncherWindow`, `VersionManager` |
+| **Carpetas** | `minúsculas` | `src/`, `ui/`, `core/` |
+| **Archivos** | `snake_case` | `launcher_window.cpp`, `version_manager.h` |
 
-## Project Structure
+## Estructura del Proyecto
 
-Example of how the code should be organized:
+Ejemplo de cómo debe estar organizado el código:
 
 ```text
 src/
@@ -32,18 +32,18 @@ src/
 │   │   └── extract_dialog.cpp
 ```
 
-## Code Documentation
+## Documentación de Código
 
-- Always document **public functions**.
-- Use clear comments for complex logic.
-- Follow the existing style in files.
+- Siempre documenta las **funciones públicas**.
+- Usa comentarios claros para lógica compleja.
+- Sigue el estilo existente en los archivos.
 
-**Example:**
+**Ejemplo:**
 ```cpp
 /**
- * Loads installed versions from the mcpelauncher directory
+ * Carga las versiones instaladas desde el directorio de mcpelauncher
  * 
- * @return QStringList with the names of found versions
+ * @return QStringList con los nombres de las versiones encontradas
  */
 QStringList loadInstalledVersions();
 ```

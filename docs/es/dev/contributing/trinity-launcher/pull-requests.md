@@ -1,21 +1,21 @@
 # Pull Requests
 
-## Before Opening a PR
+## Antes de Abrir un PR
 
-- [ ] ✅ Compiles without errors
-- [ ] ✅ Tested locally
-- [ ] ✅ Commits are clear and explicit
-- [ ] ✅ Documentation updated if necessary
+- [ ] ✅ Compila sin errores
+- [ ] ✅ Probado localmente
+- [ ] ✅ Los commits son claros y explícitos
+- [ ] ✅ Documentación actualizada si es necesario
 
-## In the Pull Request
+## En el Pull Request
 
-When opening your PR, make sure to include:
+Al abrir tu PR, asegúrate de incluir:
 
-1. **Title:** Briefly describe the change.
-2. **Description:** Explain what changed and why.
-3. **References:** Link related issues with `Fixes #123`.
+1. **Título:** Describe brevemente el cambio.
+2. **Descripción:** Explica qué cambió y por qué.
+3. **Referencias:** Enlaza issues relacionados con `Fixes #123`.
 
-### Template Example
+### Ejemplo de Plantilla
 
 ```markdown
 # Added: Integrity validation in trinchete

@@ -1,1 +1,1 @@
-# Advanced options
+# Opciones avanzadas

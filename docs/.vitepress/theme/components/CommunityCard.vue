@@ -34,11 +34,11 @@ const texts = computed(() => {
 })
 
 const openDiscord = () => {
-  window.open('https://discord.gg/ettXssJs4b', '_blank')
+  window.open('https://discord.gg/GWaN4eNjvz', '_blank')
 }
 
 const openTelegram = () => {
-  window.open('https://t.me/CyberCoffeFossOrg', '_blank')
+  window.open('https://t.me/+A7Y7lNK3PlpkNzFh', '_blank')
 }
 
 const openStoat = () => {

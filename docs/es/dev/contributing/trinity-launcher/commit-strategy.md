@@ -1,36 +1,36 @@
-# Commit Strategy
+# Estrategia de Commits
 
-Even though we don't work professionally, documentation is key to finding bugs.
+A pesar de no trabajar profesionalmente, la documentación es clave para encontrar errores resolutivos.
 
-## Explicit Commits
+## Commits Explícitos
 
-**Rule:** Commits must be **clear and specific**.
+**Regla:** Los commits deben ser **claros y específicos**.
 
 ```bash
-# ✅ GOOD:
+# ✅ BIEN:
 git commit -m "feat: add lib validation in trinchete"
 git commit -m "fix: correct data path in Flatpak"
 git commit -m "docs: update build instructions"
 
-# ❌ BAD:
+# ❌ MAL:
 git commit -m "changes"
 git commit -m "updates"
 git commit -m "fixed"
 ```
 
-## Conventional Commits
+## Commits Convencionales
 
-We recommend following the format:
+Recomendamos seguir el formato:
 ```text
 <type>: <short description>
 
 <optional long description>
 ```
 
-**Valid Types:**
-- `feat:` — New feature
-- `fix:` — Bug fix
-- `docs:` — Documentation
-- `refactor:` — Code change without new features
-- `test:` — Tests
-- `chore:` — Maintenance tasks
+**Tipos Válidos:**
+- `feat:` — Nueva funcionalidad
+- `fix:` — Corrección de error
+- `docs:` — Documentación
+- `refactor:` — Cambio de código sin añadir nuevas funciones
+- `test:` — Pruebas
+- `chore:` — Tareas de mantenimiento

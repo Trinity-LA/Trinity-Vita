@@ -1,28 +1,28 @@
-# Contributing to Trinity Launcher
+# Contribuir a Trinity Launcher
 
-First of all, **thank you for your interest in contributing!** This is an actively developed project, and all contributions are welcome.
+Antes que nada, **¡gracias por tu interés en contribuir!** Este es un proyecto en desarrollo activo y todas las contribuciones son bienvenidas.
 
 > [!WARNING]
-> **Important Note:** Trinity Launcher is currently in an organization phase. The priority right now is to **document, structure, and report**, not to optimize code.
+> **Nota Importante:** Trinity Launcher se encuentra actualmente en una fase de organización. La prioridad en este momento es **documentar, estructurar y reportar**, no optimizar el código.
 
-## Contribution Index
+## Índice de Contribución
 
-To keep the project organized, we have split the guidelines into specific sections. Please read the relevant sections before starting.
+Para mantener el proyecto organizado, hemos dividido las directrices en secciones específicas. Por favor lee las secciones relevantes antes de empezar.
 
-- **[Workflow](./how-to-contribute.md)**: Environment setup, building, and AI usage rules.
-- **[Reporting Issues](./issues.md)**: How to report bugs (without fixing them) and suggest improvements.
-- **[Code Style](./code-style.md)**: Naming conventions, folder structure, and documentation.
-- **[Commits](./commit-strategy.md)**: Rules for explicit commits and conventions.
-- **[Pull Requests](./pull-requests.md)**: Guide for submitting your changes.
-
----
-
-## Questions or Doubts?
-
-- **About Code:** Open a [Discussion](https://github.com/Trinity-LA/Trinity-Launcher/discussions)
-- **Found a Bug:** Report it in [Issues](https://github.com/Trinity-LA/Trinity-Launcher/issues)
-- **Feature Idea:** Discussion or Issue with the `enhancement` label
+- **[Flujo de trabajo](./how-to-contribute.md)**: Configuración del entorno, compilación y reglas de uso de IA.
+- **[Reportar Problemas](./issues.md)**: Cómo reportar errores (sin solucionarlos) y sugerir mejoras.
+- **[Estilo de Código](./code-style.md)**: Convenciones de nombres, estructura de carpetas y documentación.
+- **[Commits](./commit-strategy.md)**: Reglas para commits explícitos y convenciones.
+- **[Pull Requests](./pull-requests.md)**: Guía para enviar tus cambios.
 
 ---
 
-Trinity Launcher grows thanks to people like you. Your documentation, reports, and proposals are invaluable in taking the project to the next level. **Welcome to the team!**
+## ¿Preguntas o Dudas?
+
+- **Sobre el Código:** Abre una [Discusión](https://github.com/Trinity-LA/Trinity-Launcher/discussions)
+- **Encontraste un Error:** Repórtalo en [Issues](https://github.com/Trinity-LA/Trinity-Launcher/issues)
+- **Idea de Función:** Discusión o Issue con la etiqueta `enhancement`
+
+---
+
+Trinity Launcher crece gracias a personas como tú. Tu documentación, reportes y propuestas son invaluables para llevar el proyecto al siguiente nivel. **¡Bienvenido al equipo!**

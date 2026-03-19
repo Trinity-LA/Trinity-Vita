@@ -1,1 +1,1 @@
-# Synchronization
+# Sincronización

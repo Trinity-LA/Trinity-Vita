@@ -1,3 +1,5 @@
-# Coming Soon
+# Próximamente
 
-This section is currently under development.
+::: info Próximamente ✨
+Esta sección se encuentra actualmente en desarrollo. ¡Vuelve más tarde!
+:::
