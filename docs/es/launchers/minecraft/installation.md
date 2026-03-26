@@ -16,10 +16,13 @@ Elige el método que mejor se adapte a tu flujo de trabajo.
 Esta es la forma preferida para los miembros de la comunidad que desean las funciones más recientes y actualizaciones automáticas directamente desde nuestro ciclo de desarrollo.
 
 **Ejecuta estos comandos en orden en tu terminal:**
+0. Elimina el repositorio de Trinity (si tenias la antigua version):
+    ```bash
+    flatpak remote-delete trinity
+    ```
 
 1. **Añade el repositorio de Trinity:**
     ```bash
-    flatpak remote-delete trinity
     flatpak remote-add trinity https://github.com/Trinity-LA/Trinity-Launcher/releases/download/flatpak/com.trench.trinity.launcher.flatpakrepo
     ```
 
