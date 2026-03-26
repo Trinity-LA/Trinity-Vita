@@ -19,7 +19,8 @@ Esta es la forma preferida para los miembros de la comunidad que desean las func
 
 1. **Añade el repositorio de Trinity:**
     ```bash
-    flatpak remote-add --if-not-exists trinity https://huggingface.co/datasets/ccoff...
+    flatpak remote-delete trinity
+    flatpak remote-add trinity https://github.com/Trinity-LA/Trinity-Launcher/releases/download/flatpak/com.trench.trinity.launcher.flatpakrepo
     ```
 
 2. **Instala el runtime de KDE (Qt6):**
