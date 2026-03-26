@@ -22,3 +22,28 @@ Se requiere autorización previa del administrador para:
 * Cualquier propuesta que involucre componentes o estilos.
 
 **Nota:** Cualquier Pull Request que incluya modificaciones en archivos no autorizados (como la configuración de VitePress o archivos CSS) será rechazado automáticamente.
+
+---
+
+# Guía de Trabajo
+
+Para colaborar en este proyecto, es obligatorio seguir estas normas de configuración y edición para mantener la integridad de la documentación.
+
+## Configuración del Entorno local
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [URL_DEL_REPOSITORIO]
+   ```
+2. **Preparación:**
+   Abre la carpeta en tu editor de código (como VS Code). Asegúrate de tener `npm` instalado desde el gestor de paquetes de tu distribución.
+3. **Instalación de dependencias:**
+   Ejecuta en la terminal dentro de la carpeta del proyecto:
+   ```bash
+   npm install
+   ```
+4. **Previsualización:**
+   Para probar que la página funciona y ver tus cambios en tiempo real, ejecuta:
+   ```bash
+   npm run docs:dev
+   ```
